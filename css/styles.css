@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box; /* PONE UN LIMITE A TODO EL DOCUMENTO */
+    margin: 0 auto; 
+    font-family: Arial, Helvetica, sans-serif; /* TIPOGRAFIA DEL SITIO */
+}
+body{
+    background-image: url(../img/bg-2.png);   
+}
+.home{
+    width: 1140px;
+}
+/* --------------HEADER---------------- */
+
+.home header{
+    background-color: orangered;
+    width: 1140px;
+    display: table;
+    margin-bottom: 20px;
+}
+.home header img{
+    float: left; 
+    padding: 20px;
+}
+.home a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.home li{
+    list-style: none;
+    display: inline;
+}
+.home .login a{ 
+    float:right; 
+    padding: 20px; 
+    margin-top: 10px;
+}
+.home .menu a{
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+}
+/* ---------------MAIN----------------- */
+
+.home main{
+   width: 800px;
+   float: left;
+   
+}
+.home main section{
+    width: 380px;
+    float: left;
+    background-color: white;
+}
+.home main img{
+    margin: 10px;
+    width: 360px;
+}
+.home main h2{
+    margin: 10px;
+}
+.home main p{
+    margin: 10px;
+}
+.home main button{
+    background-color: orangered;
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+}
+/* ---------------------TUTORIALES----------------------- */
+.home aside{
+    width: 320px;
+    float: right;
+}
+.home aside h2{
+    background-color: white;
+    padding: 10px;
+    border: steelblue 1px solid;
+    margin-bottom: 15px;
+}
+.home aside .tutoriales article{
+    background-color: white;
+    border: steelblue 1px solid;
+}
+.home aside .tutoriales img{
+    margin: 10px;
+}
+.home aside .tutoriales p{
+    float:right;
+    margin-top: 45px;
+    margin-right: 30px;
+}
+/* ---------------------PUBLICIDAD--------------------------- */
+.home aside .publicidad h2{
+    margin-top: 20px;
+}
+.home aside .publicidad {
+    margin-top: 10px;    
+}
+.home aside .publicidad img{
+    background-color: white;
+    width: 320px;
+    padding: 10px ;
+    margin-bottom: 0px ;
+}
+
+
+_____________________REGISTRO_______________________________
+.registro{
+    width: 1140px;
+    /* ----------------HEADER------------------------- */
+}
+.registro header{
+    background-color: orangered;
+    width: 1140px;
+    display: table;
+    margin-bottom: 70px;
+}
+.registro header img{
+    float: left; 
+    padding: 20px;
+}
+.registro a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.registro li{
+    list-style: none;
+    display: inline;
+}
+.registro .login a{ 
+    float:right; 
+    padding: 20px; 
+    margin-top: 10px;
+}
+.registro .menu a{
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+}
+/* -----------FORM------------- */
+form{
+    width: 350px;
+}
+form h1{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+form label{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+form .rojo{
+    color:red;
+    font-size: 15px;
+}
+.genero label{
+    
+    margin-top: 40px;
+    font-weight: bold;
+}
+.hobbies {
+    margin-top: 30px;
+
+}
+/* _____________________________LOGIN______________________________ */
+
+/* --------------HEADER---------------- */
+
+.inicio header{
+    background-color: orangered;
+    width: 1140px;
+    display: table;
+    margin-bottom: 20px;
+}
+.inicio header img{
+    float: left; 
+    padding: 20px;
+}
+.inicio a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.inicio li{
+    list-style: none;
+    display: inline;
+}
+.inicio .login a{ 
+    float:right; 
+    padding: 20px; 
+    margin-top: 10px;
+}
+.inicio .menu a{
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+}
