@@ -8,14 +8,18 @@ body{
 }
 .home{
     width: 1140px;
+    margin-top: 100px;
 }
 /* --------------HEADER---------------- */
 
 .home header{
     background-color: orangered;
     width: 1140px;
-    display: table;
     margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    
 }
 .home header img{
     float: left; 
@@ -52,6 +56,13 @@ body{
     width: 380px;
     float: left;
     background-color: white;
+    position: relative;
+}
+.home main section .icono {
+    position: absolute;
+    width: 60px;
+    left: 280px;
+    
 }
 .home main img{
     margin: 10px;
@@ -82,7 +93,15 @@ body{
 .home aside .tutoriales article{
     background-color: white;
     border: steelblue 1px solid;
+    position: relative;
 }
+.home aside .tutoriales article .icono2{
+ position: absolute;
+ width: 50px;
+ left: 65px;
+ top: -10px;
+}
+
 .home aside .tutoriales img{
     margin: 10px;
 }
@@ -169,7 +188,9 @@ form .rojo{
 /* _____________________________LOGIN______________________________ */
 
 /* --------------HEADER---------------- */
-
+.inicio{
+    width: 1140px;
+}
 .inicio header{
     background-color: orangered;
     width: 1140px;
@@ -200,3 +221,26 @@ form .rojo{
     padding: 20px;
     margin-top: 10px;
 }
+.inicio main{
+    width: 350px;
+}
+.inicio main h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.inicio main label{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.inicio main label{   
+    margin-top: 40px;
+    font-weight: bold;
+}
+.inicio main a{
+    color: black;
+}
+
+
+/* ---------------mobile site--------------------- */
+
+
